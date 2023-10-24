@@ -1,29 +1,44 @@
-# pizza_sales_report
-I analyzed the sales data of a pizza restaurant for the year 2015. The data was collected from the restaurant's POS system and included information about the date, time, pizza type, size, quantity, and price of each order.
+## My Pizza Sales Data Analysis Journey 
 
-Data Quality
-The data was cleaned and prepared for analysis by removing blanks, changing the data type of the date, time, and price columns, and checking for duplicates. The final dataset consisted of 48,620 rows and 11 columns.
+**Introduction**
 
-Data Profiling
-The data profiling results showed that the average price of a pizza was \$16.82, and the total revenue for the year was \$817,860.05. The most popular pizza type was the Thai Chicken Pizza, with 2,313 orders. The week's busiest day was Friday, and the busiest time was in the evening.
+I embarked on a journey to explore the world of pizza sales data with a primary goal: to uncover valuable insights and make data-driven decisions to drive business growth.
+The Problem I Aimed to Solve
+Our pizza business had been thriving, but we needed a deeper understanding of our sales data to sustain and enhance our growth. My analysis aimed to address the following questions:
 
-Problem Solving
-I used the analysis to identify trends in pizza sales, such as which pizzas are most popular and when pizza sales are highest. This information can be used to make better marketing decisions and improve the customer experience. For example, the restaurant could promote Thai Chicken Pizza more heavily during the summer, which is typically the most popular.
-The analysis was also used to solve specific problems, such as identifying why pizza sales were declining, or a particular pizza was not selling well. This information can be used to make changes to the business that will improve sales. For example, if the restaurant found that pizza sales declined on weekdays, they could offer discounts or coupons to encourage more weekday orders.
+What was our total Revenue over a specific period?
+How many pizzas have we sold in total?
+What was the average order amount?
+Which pizza names were the most and least popular by order?
+Which pizza names had the highest and lowest quantity sold?
+Which pizza sizes were most preferred by our customers?
+Which pizza categories generated the most sales?
+What were the daily and monthly sales trends?
+How did sales vary across pizza categories and sizes?
 
-Results
+## My Data Exploration Journey
+To kickstart my analysis, I first delved into the dataset, which provided thorough information about pizza orders, including the total price, quantity sold, order date, pizza name, size, and category.
+**Total Revenue:** I calculated the total Revenue, providing an overview of our earnings.
+**Total Pizza Sold:** This metric revealed the number of pizzas we sold.
+**Total Orders:** It gave me the count of distinct orders, providing insights into our order volume.
+**Average Order:** The middle order amount helped me understand the spending patterns of our customers.
 
-The following are some of the key findings from the analysis:
-The best month for pizza sales was January, followed by July.
-The best days of the week for pizza sales were Friday and Saturday.
-The busiest time of day for pizza sales was in the evening.
-The most popular pizza type was the Thai Chicken Pizza.
-The total number of pizza orders was approximately 21,000.
-The total sales of pizza was approximately \$50,000.
-The total revenue from pizza sales was \$817,860.05.
-The average order value was approximately \$38.
+## My Analysis Processes
 
+**Discovering Top and Bottom Performers:** I identified the top and bottom five pizza names by the number of orders, which shed light on customer preferences.
+Analyzing Top and Bottom Performers by Quantity: I uncovered the top and bottom five pizza names by the quantity sold, revealing which pizzas were the most and least popular.
 
-Conclusion
-The analysis of the pizza sales data for 2015 has revealed some interesting trends and insights. The restaurant can use this information to make better marketing decisions and improve the customer experience. By understanding what pizzas are most popular and when pizza sales are highest, the restaurant can allocate its resources more effectively and boost its profits.
-The analysis has also identified some specific problems that the restaurant can address. For example, the restaurant can increase pizza sales on weekdays for pizzas not currently selling well. The restaurant can improve its bottom line and continue to be a successful business by making these changes.
+**Exploring Sales by Pizza Size and Category:** I determined which pizza sizes and categories were most sold, providing valuable insights for optimizing inventory.
+Understanding Sales Trends: I analyzed daily and monthly sales trends, spotting patterns in customer ordering behavior.
+**Percentage Sales by Pizza Category and Size:** I calculated the percentage of sales for each pizza category and size, offering insights into the performance of our products.
+
+## Insights and Recommendations
+
+1. The total revenue for the specified period is $817,860.05. To sustain growth, I should focus on maintaining or increasing this figure.
+2. They have sold a total of 50,000. pizzas. This data can guide inventory and production planning.
+3. The average order amount is $38, indicating the customers’ spending habits. This could inform pricing and promotions.
+4. The Classic Deluxe Pizza are customer favorites, and they should consider marketing them more prominently.
+5. The Classic Deluxe Pizza are top performers in terms of quantity, showing strong demand.
+6. Large Size and Classic dominate sales, suggesting they should prioritize these sizes and categories.
+7. Sales show a noticeable Trend by Day (Friday) and Trend by Month (July), which could help with staffing and marketing efforts.
+8. Percentage Sales by Pizza Category and Percentage Sales by Pizza Size provide insights into the contribution of different products.
